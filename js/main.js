@@ -168,8 +168,6 @@ $(document).ready(function(){
                     if(i == index){
                         var v = eval('myVideo0' + (i + 1));
                         
-                        console.log(v);
-                        
                         $('.movie .swiper-slide-active').hover(function(){
                             if(v.paused){
                                 $(this).find('.play_btn').stop().fadeIn(0);
